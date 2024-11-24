@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+  app:
+    image: web_mvc_cas
+    build:
+      context: .
+    environment:
+      DB_HOST: web_mvc_cas_db
+      DB_NAME: lab2db1
+      DB_USERNAME: root
+      DB_PASSWORD: Passer1234@
+    ports:
+      - "8081:8080"
+
+  web_mvc_cas_db:
+    image: mysql:8.0
+    container_name: container_web_mvc_cas_db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: lab2db1
+      MYSQL_USER: root
+      MYSQL_PASSWORD: Passer1234@
+    ports:
+      - "3307:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  db_data:
