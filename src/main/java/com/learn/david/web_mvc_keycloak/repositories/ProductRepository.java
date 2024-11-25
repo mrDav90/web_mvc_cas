@@ -1,6 +1,6 @@
-package com.learn.david.web_mvc_cas.repositories;
+package com.learn.david.web_mvc_keycloak.repositories;
 
-import com.learn.david.web_mvc_cas.entities.Product;
+import com.learn.david.web_mvc_keycloak.entities.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

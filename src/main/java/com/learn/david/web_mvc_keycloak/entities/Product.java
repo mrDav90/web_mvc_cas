@@ -1,4 +1,4 @@
-package com.learn.david.web_mvc_cas.entities;
+package com.learn.david.web_mvc_keycloak.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

@@ -1,7 +1,7 @@
-package com.learn.david.web_mvc_cas.services;
+package com.learn.david.web_mvc_keycloak.services;
 
-import com.learn.david.web_mvc_cas.entities.Product;
-import com.learn.david.web_mvc_cas.repositories.ProductRepository;
+import com.learn.david.web_mvc_keycloak.entities.Product;
+import com.learn.david.web_mvc_keycloak.repositories.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
